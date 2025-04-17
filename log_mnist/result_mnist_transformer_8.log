@@ -1,0 +1,128 @@
+===== Training Config =====
+Dataset:        mnist
+Model:          transformer
+BatchSize:      128
+Epochs:         300
+LR:             0.0022
+Patience:       10
+NumClasses:     10
+SaveDir:        /scratch/gilbreth/hu953/cs57800/pth
+Noise Std:      0.8
+Noise Type:     gaussian
+===========================
+[Epoch 1/300] Iter [10/41] Loss: 1.8309
+[Epoch 1/300] Iter [20/41] Loss: 1.4348
+[Epoch 1/300] Iter [30/41] Loss: 1.3612
+[Epoch 1/300] Iter [40/41] Loss: 0.9439
+Epoch [1/300] Validation Loss: 1.0156
+[Epoch 2/300] Iter [10/41] Loss: 0.8425
+[Epoch 2/300] Iter [20/41] Loss: 0.6759
+[Epoch 2/300] Iter [30/41] Loss: 0.7607
+[Epoch 2/300] Iter [40/41] Loss: 0.6841
+Epoch [2/300] Validation Loss: 0.5795
+[Epoch 3/300] Iter [10/41] Loss: 0.5247
+[Epoch 3/300] Iter [20/41] Loss: 0.5794
+[Epoch 3/300] Iter [30/41] Loss: 0.5509
+[Epoch 3/300] Iter [40/41] Loss: 0.5513
+Epoch [3/300] Validation Loss: 0.4134
+[Epoch 4/300] Iter [10/41] Loss: 0.4513
+[Epoch 4/300] Iter [20/41] Loss: 0.4183
+[Epoch 4/300] Iter [30/41] Loss: 0.3996
+[Epoch 4/300] Iter [40/41] Loss: 0.6415
+Epoch [4/300] Validation Loss: 0.4479
+No improvement for 1 epoch(s).
+[Epoch 5/300] Iter [10/41] Loss: 0.5673
+[Epoch 5/300] Iter [20/41] Loss: 0.4630
+[Epoch 5/300] Iter [30/41] Loss: 0.4326
+[Epoch 5/300] Iter [40/41] Loss: 0.3141
+Epoch [5/300] Validation Loss: 0.3748
+[Epoch 6/300] Iter [10/41] Loss: 0.3990
+[Epoch 6/300] Iter [20/41] Loss: 0.2980
+[Epoch 6/300] Iter [30/41] Loss: 0.3807
+[Epoch 6/300] Iter [40/41] Loss: 0.3097
+Epoch [6/300] Validation Loss: 0.3215
+[Epoch 7/300] Iter [10/41] Loss: 0.3495
+[Epoch 7/300] Iter [20/41] Loss: 0.3030
+[Epoch 7/300] Iter [30/41] Loss: 0.1890
+[Epoch 7/300] Iter [40/41] Loss: 0.1590
+Epoch [7/300] Validation Loss: 0.3312
+No improvement for 1 epoch(s).
+[Epoch 8/300] Iter [10/41] Loss: 0.2920
+[Epoch 8/300] Iter [20/41] Loss: 0.3824
+[Epoch 8/300] Iter [30/41] Loss: 0.2870
+[Epoch 8/300] Iter [40/41] Loss: 0.2163
+Epoch [8/300] Validation Loss: 0.4040
+No improvement for 2 epoch(s).
+[Epoch 9/300] Iter [10/41] Loss: 0.2642
+[Epoch 9/300] Iter [20/41] Loss: 0.4236
+[Epoch 9/300] Iter [30/41] Loss: 0.4244
+[Epoch 9/300] Iter [40/41] Loss: 0.1649
+Epoch [9/300] Validation Loss: 0.2849
+[Epoch 10/300] Iter [10/41] Loss: 0.2393
+[Epoch 10/300] Iter [20/41] Loss: 0.1551
+[Epoch 10/300] Iter [30/41] Loss: 0.1808
+[Epoch 10/300] Iter [40/41] Loss: 0.2558
+Epoch [10/300] Validation Loss: 0.2171
+[Epoch 11/300] Iter [10/41] Loss: 0.0437
+[Epoch 11/300] Iter [20/41] Loss: 0.1899
+[Epoch 11/300] Iter [30/41] Loss: 0.1991
+[Epoch 11/300] Iter [40/41] Loss: 0.1879
+Epoch [11/300] Validation Loss: 0.2580
+No improvement for 1 epoch(s).
+[Epoch 12/300] Iter [10/41] Loss: 0.1073
+[Epoch 12/300] Iter [20/41] Loss: 0.0946
+[Epoch 12/300] Iter [30/41] Loss: 0.1692
+[Epoch 12/300] Iter [40/41] Loss: 0.2300
+Epoch [12/300] Validation Loss: 0.2386
+No improvement for 2 epoch(s).
+[Epoch 13/300] Iter [10/41] Loss: 0.1412
+[Epoch 13/300] Iter [20/41] Loss: 0.1037
+[Epoch 13/300] Iter [30/41] Loss: 0.2708
+[Epoch 13/300] Iter [40/41] Loss: 0.1849
+Epoch [13/300] Validation Loss: 0.3098
+No improvement for 3 epoch(s).
+[Epoch 14/300] Iter [10/41] Loss: 0.2527
+[Epoch 14/300] Iter [20/41] Loss: 0.1731
+[Epoch 14/300] Iter [30/41] Loss: 0.1272
+[Epoch 14/300] Iter [40/41] Loss: 0.1365
+Epoch [14/300] Validation Loss: 0.2882
+No improvement for 4 epoch(s).
+[Epoch 15/300] Iter [10/41] Loss: 0.1594
+[Epoch 15/300] Iter [20/41] Loss: 0.1285
+[Epoch 15/300] Iter [30/41] Loss: 0.2144
+[Epoch 15/300] Iter [40/41] Loss: 0.1719
+Epoch [15/300] Validation Loss: 0.2985
+No improvement for 5 epoch(s).
+[Epoch 16/300] Iter [10/41] Loss: 0.1913
+[Epoch 16/300] Iter [20/41] Loss: 0.1663
+[Epoch 16/300] Iter [30/41] Loss: 0.0990
+[Epoch 16/300] Iter [40/41] Loss: 0.0936
+Epoch [16/300] Validation Loss: 0.2275
+No improvement for 6 epoch(s).
+[Epoch 17/300] Iter [10/41] Loss: 0.1281
+[Epoch 17/300] Iter [20/41] Loss: 0.1445
+[Epoch 17/300] Iter [30/41] Loss: 0.1064
+[Epoch 17/300] Iter [40/41] Loss: 0.1750
+Epoch [17/300] Validation Loss: 0.2319
+No improvement for 7 epoch(s).
+[Epoch 18/300] Iter [10/41] Loss: 0.2017
+[Epoch 18/300] Iter [20/41] Loss: 0.2000
+[Epoch 18/300] Iter [30/41] Loss: 0.0261
+[Epoch 18/300] Iter [40/41] Loss: 0.1748
+Epoch [18/300] Validation Loss: 0.2506
+No improvement for 8 epoch(s).
+[Epoch 19/300] Iter [10/41] Loss: 0.1068
+[Epoch 19/300] Iter [20/41] Loss: 0.0298
+[Epoch 19/300] Iter [30/41] Loss: 0.1051
+[Epoch 19/300] Iter [40/41] Loss: 0.2915
+Epoch [19/300] Validation Loss: 0.2754
+No improvement for 9 epoch(s).
+[Epoch 20/300] Iter [10/41] Loss: 0.0946
+[Epoch 20/300] Iter [20/41] Loss: 0.2072
+[Epoch 20/300] Iter [30/41] Loss: 0.1529
+[Epoch 20/300] Iter [40/41] Loss: 0.0464
+Epoch [20/300] Validation Loss: 0.2662
+No improvement for 10 epoch(s).
+Early stopping triggered at epoch 20
+Training complete!
+Test Accuracy: 21.09%
